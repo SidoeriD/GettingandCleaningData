@@ -43,4 +43,4 @@ tidyData <- subSet %>%
             group_by( subjectId, activity) %>%
             summarise_each(funs(mean))
 
-write.table(tidyData, "C:/Users/Sidoeri/datasciencecoursera/GettingAndCLeaningData/tidyData.txt")
+write.table(tidyData, "C:/Users/Sidoeri/datasciencecoursera/GettingAndCLeaningData/tidyData.txt", row.names = F)
