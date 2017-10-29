@@ -110,7 +110,7 @@ tidyData <- subSet %>%
             summarise_each(funs(mean))
 ```
 
-To export tidyData *write.csv2* was used without any extra variables
+To export tidyData *write.table* was used with row.names = FALSE
 
 TidyData is tidy (long form) because:
 
