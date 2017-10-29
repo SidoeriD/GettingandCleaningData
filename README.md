@@ -1,6 +1,5 @@
 ---
 title: "README"
-author: "Sidoeri Dekker"
 date: "October 28, 2017"
 output: html_document
 ---
